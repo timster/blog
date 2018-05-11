@@ -1,0 +1,29 @@
+baseURL = "https://timster.github.io/"
+languageCode = "en-us"
+title = "timster.github.io"
+copyright = "Tim Shaffer"
+theme = "beautifulhugo"
+
+[Author]
+    name = "Tim Shaffer"
+    facebook = "tim.shaffer"
+    github = "timster"
+    linkedin = "tim-shaffer-20147"
+
+[Params]
+    homeTitle = "Tim Shaffer"
+    dateFormat = "January 2, 2006"
+    rss = true
+
+[[Params.bigimg]]
+    src = "img/hero.jpg"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
